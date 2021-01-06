@@ -1,2 +1,2 @@
 # C-language
-C++ Study with BAEKJOON
+C language Study with BAEKJOON
