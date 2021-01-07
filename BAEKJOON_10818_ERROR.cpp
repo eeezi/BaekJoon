@@ -28,7 +28,7 @@ int main(void) {
 int main() {
 	int max = 0, min = 0, n;
 	scanf("%d", &n);
-	int* arr = (int *)malloc(sizeof(n));
+	int* arr = (int *)malloc(sizeof(int) * n);
 
 	for (int i = 0; i < n; i++) {
 		scanf("%d", &arr[i]);
