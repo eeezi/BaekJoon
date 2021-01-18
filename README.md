@@ -1,2 +1,2 @@
-# C-language
-C language Study with BAEKJOON
+# BaekJoon
+Study with BAEKJOON
