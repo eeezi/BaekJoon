@@ -15,3 +15,15 @@ for i in range(3):
         y = y_coordinate[i]
 
 print(x, y, sep=" ")
+
+
+''' 다른 사람이 푼 더 간결한 코드
+Xpos = list()
+Ypos = list()
+
+for _ in range(3):
+    x, y = input().split()
+    Xpos.append(x) if x not in Xpos else Xpos.remove(x)
+    Ypos.append(y) if y not in Ypos else Ypos.remove(y)
+print(Xpos[0], Ypos[0])
+'''
